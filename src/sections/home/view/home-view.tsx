@@ -912,10 +912,10 @@ export function HomeView() {
               sx={{ mt: 5.5, textAlign: 'center' }}
             >
               <Image
-                src="/assets/code-for-cat/logo.png"
+                src="/assets/code-for-cat/logo-3d.png"
                 alt="Logo"
                 ratio="1/1"
-                sx={{ width: { xs: 50, md: 100 }, height: { xs: 50, md: 100 } }}
+                sx={{ width: { xs: 50, md: 200 }, height: { xs: 50, md: 200 } }}
               />
               <Typography sx={{ mt: 1.4, color: 'primary.darker', fontSize: 18, fontWeight: 900 }}>
                 Quick and Easy Launch
@@ -1061,10 +1061,10 @@ export function HomeView() {
               >
                 <Box>
                   <Image
-                    src="/assets/code-for-cat/logo.png"
+                    src="/assets/code-for-cat/face.png"
                     alt="Logo"
                     ratio="1/1"
-                    sx={{ width: { xs: 50, md: 60 }, height: { xs: 50, md: 60 } }}
+                    sx={{ width: { xs: 50, md: 100 }, height: { xs: 50, md: 100 } }}
                   />
                   <Typography
                     sx={{
