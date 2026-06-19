@@ -144,6 +144,7 @@ export function AboutTeam({ sx, ...other }: BoxProps) {
       >
         <Box
           component={MotionViewport}
+          viewport={{ amount: 0.01 }}
           sx={{
             pt: { xs: 2, md: 7 },
             pb: { xs: 8, md: 12 },
