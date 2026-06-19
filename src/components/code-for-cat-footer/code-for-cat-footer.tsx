@@ -21,7 +21,7 @@ const footerColumns = [
   {
     title: 'Company',
     links: [
-      { label: 'เกี่ยวกับเรา', href: '/' },
+      { label: 'เกี่ยวกับเรา', href: '/about-us' },
       { label: 'ผลงาน', href: '/#clients' },
       { label: 'ติดต่อ', href: '/contact-us' },
       { label: 'ขั้นตอนทำงาน', href: '/#workflow' },

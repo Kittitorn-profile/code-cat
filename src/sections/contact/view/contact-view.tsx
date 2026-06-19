@@ -28,12 +28,17 @@ const contactItems = [
   {
     icon: 'solar:phone-bold',
     label: 'โทร',
-    value: '080-000-0000',
+    value: '082-954-9263 (คุณฟลุ๊ค)',
   },
   {
     icon: 'solar:letter-bold',
     label: 'อีเมล',
-    value: 'hello@codeforcat.dev',
+    value: 'codeforcat.official@gmail.com',
+  },
+  {
+    icon: 'solar:letter-bold',
+    label: 'LINE',
+    value: 'fluketoselnwza',
   },
   {
     icon: 'solar:flag-bold',
@@ -104,12 +109,12 @@ export function ContactView() {
                 </Typography>
 
                 <Typography
-                  component="h1"
+                  component="h3"
                   sx={{
                     mt: 2,
                     color: tone.ink,
                     maxWidth: 560,
-                    fontSize: { xs: 46, sm: 62, md: 76 },
+                    fontSize: { xs: 32, sm: 48, md: 60 },
                     fontWeight: 950,
                     lineHeight: 0.98,
                   }}
@@ -195,33 +200,6 @@ export function ContactView() {
                   <TextField fullWidth label="งบประมาณโดยประมาณ" />
                   <TextField fullWidth label="เล่าโปรเจกต์ที่อยากทำ" multiline rows={5} />
                 </Stack>
-
-                <Box
-                  sx={{
-                    mt: 2.5,
-                    display: 'grid',
-                    gap: 1,
-                    gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))' },
-                  }}
-                >
-                  {projectTypes.map((type) => (
-                    <Box
-                      key={type}
-                      sx={{
-                        px: 1.5,
-                        py: 1,
-                        borderRadius: 999,
-                        color: tone.ink,
-                        bgcolor: tone.soft,
-                        fontSize: 12,
-                        fontWeight: 800,
-                        textAlign: 'center',
-                      }}
-                    >
-                      {type}
-                    </Box>
-                  ))}
-                </Box>
 
                 <Button
                   fullWidth

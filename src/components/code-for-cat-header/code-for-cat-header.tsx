@@ -14,6 +14,7 @@ import { Image } from 'src/components/image';
 
 const navItems = [
   { label: 'หน้าแรก', href: '/' },
+  { label: 'เกี่ยวกับเรา', href: '/about-us' },
   { label: 'บริการ', href: '/#services' },
   { label: 'ผลงาน', href: '/#clients' },
   { label: 'ขั้นตอน', href: '/#workflow' },
@@ -220,7 +221,7 @@ export function CodeForCatHeader({ activeHref, sticky = false }: CodeForCatHeade
           }}
         >
           {navItems.map((item) => {
-          const active = item.href === currentHref;
+            const active = item.href === currentHref;
 
             return (
               <Box
